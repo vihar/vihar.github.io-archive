@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-custom{
+  padding: 20px 10px 0px 10px;
+}
+
+.heading{
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.50rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.list-a{
+  font-size:22px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contact svg {
+  margin: 5px 10px;
+  fill: #999999;
+  transition: fill, 0.2s ease-in;
+}
+
+.contact svg:hover {
+  fill: #555555;
+}
